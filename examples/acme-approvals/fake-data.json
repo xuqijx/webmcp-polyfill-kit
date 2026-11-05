@@ -1,0 +1,72 @@
+{
+  "requests": [
+    {
+      "id": "REQ-1001",
+      "title": "Laptop upgrade for design contractor",
+      "requester": "Alex Rivera",
+      "department": "Design",
+      "amount": 1899.0,
+      "currency": "USD",
+      "status": "pending",
+      "submittedAt": "2026-11-03T09:15:00Z",
+      "summary": "Replace aging MacBook for external design contractor starting next sprint.",
+      "lineItems": [
+        { "sku": "MBP-14", "desc": "14-inch laptop", "qty": 1, "unitPrice": 1899.0 }
+      ]
+    },
+    {
+      "id": "REQ-1002",
+      "title": "Q4 SaaS renewal — Analytics Pro",
+      "requester": "Jordan Lee",
+      "department": "RevOps",
+      "amount": 4800.0,
+      "currency": "USD",
+      "status": "pending",
+      "submittedAt": "2026-11-04T14:40:00Z",
+      "summary": "Annual renewal for Analytics Pro seats (12 users).",
+      "lineItems": [
+        { "sku": "ANL-PRO-YR", "desc": "Analytics Pro yearly seat", "qty": 12, "unitPrice": 400.0 }
+      ]
+    },
+    {
+      "id": "REQ-1003",
+      "title": "Office supplies restock",
+      "requester": "Sam Patel",
+      "department": "Facilities",
+      "amount": 312.5,
+      "currency": "USD",
+      "status": "pending",
+      "submittedAt": "2026-11-05T08:05:00Z",
+      "summary": "Paper, toner, and desk accessories for floor 3.",
+      "lineItems": [
+        { "sku": "SUP-MIX", "desc": "Mixed office supplies", "qty": 1, "unitPrice": 312.5 }
+      ]
+    },
+    {
+      "id": "REQ-0990",
+      "title": "Conference travel — AgentCon",
+      "requester": "Casey Ng",
+      "department": "Engineering",
+      "amount": 2200.0,
+      "currency": "USD",
+      "status": "approved",
+      "submittedAt": "2026-10-20T11:00:00Z",
+      "decidedAt": "2026-10-21T16:30:00Z",
+      "decisionComment": "Approved — talks align with roadmap.",
+      "summary": "Flight + hotel for AgentCon speaker slot.",
+      "lineItems": [
+        { "sku": "TRV-FLIGHT", "desc": "Round-trip flight", "qty": 1, "unitPrice": 780.0 },
+        { "sku": "TRV-HOTEL", "desc": "3 nights hotel", "qty": 1, "unitPrice": 1420.0 }
+      ]
+    }
+  ],
+  "workOrders": [
+    {
+      "id": "WO-501",
+      "title": "Reset staging VPN gateway",
+      "status": "open",
+      "priority": "high",
+      "assignee": "Platform On-call"
+    }
+  ]
+}

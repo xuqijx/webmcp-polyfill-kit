@@ -1,0 +1,25 @@
+{
+  "name": "webmcp-polyfill-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Drop-in polyfill that registers agent-callable tools on legacy web pages (WebMCP-shaped).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "demo": "node scripts/demo.js",
+    "start": "node bridge/server.js",
+    "mcp": "node bridge/mcp-stdio.js",
+    "test": "node test/smoke.test.js",
+    "smoke": "node test/smoke.test.js",
+    "record-demo": "node scripts/record-demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

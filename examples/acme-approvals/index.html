@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Acme Approvals — WebMCP Polyfill Kit demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Acme Approvals</h1>
+        <div class="sub">Mock portal · fictional data only · WebMCP Polyfill Kit demo</div>
+      </div>
+      <div>
+        Mode: <span id="mode-badge" class="badge badge-polyfill">…</span>
+      </div>
+    </header>
+    <main>
+      <section class="panel">
+        <h2>Requests</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Requester</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="request-rows"></tbody>
+        </table>
+        <div id="detail-panel" style="margin-top: 1rem">
+          <p class="sub">Select a request or call <code>get_request_detail</code>.</p>
+        </div>
+      </section>
+      <aside class="sidebar-stack">
+        <section class="panel">
+          <h2>Registered tools</h2>
+          <ul id="tool-list"></ul>
+        </section>
+        <section class="panel">
+          <h2>Activity</h2>
+          <ul id="activity-log"></ul>
+        </section>
+      </aside>
+    </main>
+    <footer>
+      Not affiliated with Google or Chrome. Demo data is entirely fake.
+      Destructive tools (<code>approve_request</code>, <code>reject_request</code>) set
+      <code>requiresConfirmation: true</code> — the MCP bridge prompts before calling them.
+    </footer>
+    <script src="/src/webmcp-polyfill.js"></script>
+    <script src="./tools.js"></script>
+  </body>
+</html>
