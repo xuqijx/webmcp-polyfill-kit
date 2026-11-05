@@ -2,6 +2,9 @@
 
 # WebMCP Polyfill Kit
 
+> **状态：早期 MVP。** 示例数据（Acme Approvals）全部为虚构。尚未在 Cursor、Claude 桌面版以及开启原生 WebMCP 的 Chrome 中实测。许可证：[MIT](LICENSE)。
+
+
 把遗留网页变成 Agent 可调用的工具。
 
 一行脚本式 polyfill，在旧的审批 / 工单门户上注册可调用工具。无需重写门户，无需截图点选。

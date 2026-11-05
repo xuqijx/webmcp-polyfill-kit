@@ -2,6 +2,9 @@
 
 # WebMCP Polyfill Kit
 
+> **ステータス：初期 MVP。** サンプルデータ（Acme Approvals）はすべて架空です。Cursor、Claude Desktop、ネイティブ WebMCP を有効にした Chrome ではまだ実機検証していません。ライセンス：[MIT](LICENSE)。
+
+
 レガシーな Web ページを Agent から呼べるツールにする。
 
 古い承認 / 作業指示ポータルに、呼び出し可能なツールを登録するドロップイン polyfill です。ポータルの改修も、スクリーンショット操作も不要です。

@@ -2,6 +2,9 @@
 
 # WebMCP Polyfill Kit
 
+> **Status: early MVP.** All sample data (Acme Approvals) is fictional. Not yet tested inside Cursor, Claude Desktop, or Chrome with the native WebMCP flag enabled. License: [MIT](LICENSE).
+
+
 Turn legacy web pages into agent-callable tools.
 
 Drop-in polyfill that registers callable tools on old approval / work-order portals. No portal rewrite, no screenshot clicking.
