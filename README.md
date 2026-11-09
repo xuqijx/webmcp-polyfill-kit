@@ -26,7 +26,7 @@ A small **Node bridge** serves the mock portal, connects to the page over WebSoc
 ## 3-step start
 
 ```bash
-cd mvp
+cd /path/to/webmcp-polyfill-kit
 npm install
 npm run demo
 ```
@@ -86,15 +86,16 @@ Treat `requiresConfirmation` as mandatory for any write / approve / reject / del
 
 ## Layout
 
+Paths below are at the repository root.
+
 ```
-mvp/
-  src/webmcp-polyfill.js
-  bridge/          # HTTP + WebSocket relay + MCP stdio
-  examples/acme-approvals/
-  scripts/demo.js
-  test/smoke.test.js
-  docs/demo.gif
-  docs/QUICKSTART.md
+src/webmcp-polyfill.js
+bridge/          # HTTP + WebSocket relay + MCP stdio
+examples/acme-approvals/
+scripts/demo.js
+test/smoke.test.js
+docs/demo.gif
+docs/QUICKSTART.md
 ```
 
 ## Scripts

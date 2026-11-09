@@ -1,9 +1,9 @@
 # Quick start (3 commands)
 
-From this directory (`mvp/`):
+From the repository root:
 
 ```bash
-cd /path/to/webmcp-polyfill-kit/mvp
+cd /path/to/webmcp-polyfill-kit
 npm install
 npm run demo
 ```
