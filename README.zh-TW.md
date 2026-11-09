@@ -26,7 +26,7 @@
 ## 三步啟動
 
 ```bash
-cd mvp
+cd /path/to/webmcp-polyfill-kit
 npm install
 npm run demo
 ```
@@ -72,6 +72,20 @@ npm run demo
 ## 安全說明
 
 核准 / 駁回 / 刪除等寫入操作必須帶 `requiresConfirmation`。未傳 `{ confirmed: true }` 時會拋出 `CONFIRMATION_REQUIRED`。正式環境的 Agent **不要**靜默自動確認。
+
+## 目錄結構
+
+以下路徑均位於儲存庫根目錄。
+
+```
+src/webmcp-polyfill.js
+bridge/          # HTTP + WebSocket 中繼 + MCP stdio
+examples/acme-approvals/
+scripts/demo.js
+test/smoke.test.js
+docs/demo.gif
+docs/QUICKSTART.md
+```
 
 ## 指令
 

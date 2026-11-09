@@ -26,7 +26,7 @@
 ## 3 ステップで起動
 
 ```bash
-cd mvp
+cd /path/to/webmcp-polyfill-kit
 npm install
 npm run demo
 ```
@@ -72,6 +72,20 @@ npm run demo
 ## 安全について
 
 承認 / 却下 / 削除などの書き込み操作には必ず `requiresConfirmation` を付けてください。`{ confirmed: true }` が無いと `CONFIRMATION_REQUIRED` を投げます。本番 Agent で黙って自動承認しないでください。
+
+## レイアウト
+
+以下のパスはリポジトリのルートにあります。
+
+```
+src/webmcp-polyfill.js
+bridge/          # HTTP + WebSocket 中継 + MCP stdio
+examples/acme-approvals/
+scripts/demo.js
+test/smoke.test.js
+docs/demo.gif
+docs/QUICKSTART.md
+```
 
 ## スクリプト
 
